@@ -1,0 +1,1 @@
+Study task "fancy-weather"
