@@ -1,0 +1,17 @@
+.geolocation {
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.mapboxgl-canvas {
+  position: static !important;
+  width: 90% !important;
+  height: 90% !important;
+  border-radius: 10px !important;
+}
+
+.mapboxgl-control-container {
+  display: none;
+}

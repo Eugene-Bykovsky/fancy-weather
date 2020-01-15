@@ -1,0 +1,30 @@
+.search {
+  display: flex;
+  height: 100%;
+  width: 375px;
+  position: relative;
+  &__input {
+    height: 100%;
+    width: 274px;
+    padding-left: 15px;
+    background: rgba(76, 82, 85, 0.4);
+    border: 1px solid rgba(228, 227, 227, 0.2);
+    border-radius: 5px 0 0 5px;
+    color: #fff;
+    &::placeholder {
+      color: #fff;
+    }
+  }
+  &__button {
+    height: 100%;
+    width: 101px;
+    background: rgba(174, 181, 185, 0.5);
+    border-radius: 0 5px 5px 0;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+  }
+}
